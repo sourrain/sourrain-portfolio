@@ -1,0 +1,26 @@
+[
+  {
+    "name": "about",
+    "path": "/about",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainSite-20210311\\\\pages\\\\about.vue",
+    "chunkName": "pages/about"
+  },
+  {
+    "name": "work",
+    "path": "/work",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainSite-20210311\\\\pages\\\\work.vue",
+    "chunkName": "pages/work"
+  },
+  {
+    "name": "artworks-artwork",
+    "path": "/artworks/:artwork?",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainSite-20210311\\\\pages\\\\artworks\\\\_artwork.vue",
+    "chunkName": "pages/artworks/_artwork"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainSite-20210311\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "ArtworkBlock": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/ArtworkBlock.vue"
+  },
+  "LazyArtworkBlock": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/ArtworkBlock.vue"
+  },
+  "Header": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/Header.vue"
+  },
+  "LazyHeader": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/Header.vue"
+  },
+  "LoadingPage": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/LoadingPage.vue"
+  },
+  "LazyLoadingPage": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/LoadingPage.vue"
+  },
+  "PrismicElement": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/PrismicElement.vue"
+  },
+  "LazyPrismicElement": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/PrismicElement.vue"
+  },
+  "Tag": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/Tag.vue"
+  },
+  "LazyTag": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/Tag.vue"
+  },
+  "Three": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/Three.vue"
+  },
+  "LazyThree": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrainSite-20210311/components/Three.vue"
+  }
+}

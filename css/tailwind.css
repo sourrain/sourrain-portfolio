@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "EksellDisplayWeb-Large";
+    src: url('~assets/fonts/EksellDisplayWeb-Large.4740e7eb.woff2')format('truetype');
+}
+
+;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
