@@ -3,7 +3,7 @@
     <NuxtLink :to="'/artworks/'+ block.uid">
      <img v-if="block.data.main"
       v-bind:src="f_url" />
-      <h1 class="">
+      <h1 class="flex">
         {{ block.data.title[0].text }}
       </h1>
       <h2 v-if="block.data.subtitle">
