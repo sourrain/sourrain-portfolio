@@ -1,7 +1,10 @@
 {
-    "name": "sourrain-site",
+    "name": "sourrainsite",
     "scripts": {
-        "dev": "nuxt dev"
+        "dev": "nuxt dev",
+        "build": "nuxt generate",
+        "start": "nuxt start",
+        "generate":"nuxt generate"
     },
     "dependencies": {
         "@prismicio/client": "^4.0.0",

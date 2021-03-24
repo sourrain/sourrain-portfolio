@@ -2,11 +2,6 @@
   <div class="content">
     <h1>About {{ content }}</h1>
 
-    <prismic-element
-      v-for="(e, index) of contents"
-      :key="index"
-      v-bind:element="e"
-    ></prismic-element>
   </div>
 </template>
 

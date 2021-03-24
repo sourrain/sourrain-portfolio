@@ -1,12 +1,17 @@
 <template>
   <div>
-  <button>{{ tag }}</button>
+  <button @click="sendDataToParent">{{ tag }}</button>
   </div>
 </template>
 <script>
 export default {
   props: {
-    tag: Object,
+    tag: String,
+  },
+  methods:{
+    sendDataToParent(){
+      this.$emit('filterChange', this.tag)
+    }
   }
 };
 </script>
