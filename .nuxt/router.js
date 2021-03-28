@@ -4,10 +4,10 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _7ea5cbc0 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
-const _8f8e0964 = () => interopDefault(import('..\\pages\\work.vue' /* webpackChunkName: "pages/work" */))
-const _64956471 = () => interopDefault(import('..\\pages\\artworks\\_artwork.vue' /* webpackChunkName: "pages/artworks/_artwork" */))
-const _3f361636 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _7fb5a394 = () => interopDefault(import('..\\pages\\about.vue' /* webpackChunkName: "pages/about" */))
+const _31ff735a = () => interopDefault(import('..\\pages\\work.vue' /* webpackChunkName: "pages/work" */))
+const _5bf2d77d = () => interopDefault(import('..\\pages\\artworks\\_artwork.vue' /* webpackChunkName: "pages/artworks/_artwork" */))
+const _c125034e = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -27,19 +27,19 @@ export const routerOptions = {
 
   routes: [{
     path: "/about",
-    component: _7ea5cbc0,
+    component: _7fb5a394,
     name: "about"
   }, {
     path: "/work",
-    component: _8f8e0964,
+    component: _31ff735a,
     name: "work"
   }, {
     path: "/artworks/:artwork?",
-    component: _64956471,
+    component: _5bf2d77d,
     name: "artworks-artwork"
   }, {
     path: "/",
-    component: _3f361636,
+    component: _c125034e,
     name: "index"
   }],
 

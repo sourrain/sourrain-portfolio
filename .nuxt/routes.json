@@ -2,29 +2,29 @@
   {
     "name": "about",
     "path": "/about",
-    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainsite\\\\pages\\\\about.vue",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
-    "_name": "_7ea5cbc0"
+    "_name": "_7fb5a394"
   },
   {
     "name": "work",
     "path": "/work",
-    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainsite\\\\pages\\\\work.vue",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\work.vue",
     "chunkName": "pages/work",
-    "_name": "_8f8e0964"
+    "_name": "_31ff735a"
   },
   {
     "name": "artworks-artwork",
     "path": "/artworks/:artwork?",
-    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainsite\\\\pages\\\\artworks\\\\_artwork.vue",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\artworks\\\\_artwork.vue",
     "chunkName": "pages/artworks/_artwork",
-    "_name": "_64956471"
+    "_name": "_5bf2d77d"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrainsite\\\\pages\\\\index.vue",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_3f361636"
+    "_name": "_c125034e"
   }
 ]
