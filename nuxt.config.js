@@ -3,7 +3,7 @@ export default {
     components: true,
     loading: './components/LoadingPage.vue',
     target: 'static',
-    ssr: false,
+    ssr: true,
     generate:{
         fallback: true
     }
