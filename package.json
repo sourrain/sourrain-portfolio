@@ -8,8 +8,8 @@
     "license": "SEE LICENSE IN README.md",
     "scripts": {
         "dev": "nuxt",
-        "start": "nuxt start",
-        "generate": "nuxt generate"
+        "generate": "nuxt generate",
+        "start": "nuxt start"
     },
     "dependencies": {
         "@prismicio/client": "^4.0.0",
