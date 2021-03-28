@@ -1,15 +1,18 @@
 {
     "name": "sourrainsite",
+    "description": "my online portfolio",
     "scripts": {
         "dev": "nuxt dev",
         "build": "nuxt generate",
         "start": "nuxt start",
-        "generate":"nuxt generate"
+        "generate": "nuxt generate"
     },
     "dependencies": {
         "@prismicio/client": "^4.0.0",
         "@prismicio/vue": "^2.0.7",
         "nuxt": "^2.14.12",
+        "prismic-dom": "^2.2.5",
+        "prismic-javascript": "^3.0.2",
         "three": "^0.125.2"
     },
     "devDependencies": {
