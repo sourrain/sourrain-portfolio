@@ -1,6 +1,11 @@
 {
     "name": "sourrainsite",
     "description": "my online portfolio",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sourrain/sourrain-portfolio"
+    },
+    "license": "SEE LICENSE IN README.md",
     "scripts": {
         "dev": "nuxt dev",
         "build": "nuxt generate",
@@ -12,8 +17,7 @@
         "@prismicio/vue": "^2.0.7",
         "nuxt": "^2.14.12",
         "prismic-dom": "^2.2.5",
-        "prismic-javascript": "^3.0.2",
-        "three": "^0.125.2"
+        "prismic-javascript": "^3.0.2"
     },
     "devDependencies": {
         "@nuxtjs/tailwindcss": "^3.4.3",
