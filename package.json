@@ -7,8 +7,8 @@
     },
     "license": "SEE LICENSE IN README.md",
     "scripts": {
-        "dev": "nuxt dev",
-        "build": "nuxt generate",
+        "dev": "nuxt",
+        "build": "nuxt build",
         "start": "nuxt start",
         "generate": "nuxt generate"
     },
