@@ -1,0 +1,17 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/about.js": "pages/about.js",
+    "pages/artworks/_artwork.js": "pages/artworks/_artwork.js",
+    "pages/index.js": "pages/index.js",
+    "pages/work.js": "pages/work.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/about.js": "pages/about.js.map",
+    "pages/artworks/_artwork.js": "pages/artworks/_artwork.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/work.js": "pages/work.js.map",
+    "server.js": "server.js.map"
+  }
+}
