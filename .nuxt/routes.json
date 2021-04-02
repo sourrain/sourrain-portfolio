@@ -7,13 +7,6 @@
     "_name": "_7fb5a394"
   },
   {
-    "name": "work",
-    "path": "/work",
-    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\work.vue",
-    "chunkName": "pages/work",
-    "_name": "_31ff735a"
-  },
-  {
     "name": "artworks-artwork",
     "path": "/artworks/:artwork?",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\artworks\\\\_artwork.vue",

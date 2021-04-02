@@ -9,8 +9,6 @@
       <h2 v-if="block.data.subtitle">
         {{ f_subtitle }}
       </h2>
-
-      <p>#{{ block.tags }}</p>
     </NuxtLink>
   </div>
 </template>
