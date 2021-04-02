@@ -9,8 +9,9 @@
     <div class="bg-blue text-xs flex">
       <card
         class="w-80 p-5"
-        v-for="(block, index) of blocks"
+        v-for="(b, index) of blocks"
         :key="index"
+          v-bind:block="b"
       >
       </card>
     </div>

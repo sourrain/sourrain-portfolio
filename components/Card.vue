@@ -1,15 +1,14 @@
 <template>
   <div>
-    {{block}}
-    <NuxtLink :to="'/artworks/'+block">
-     <!-- <img v-if="block.data.main"
+    <NuxtLink :to="'/artworks/'+block.uid">
+     <img v-if="block.data.main"
       v-bind:src="f_url" />
       <h1 class="flex">
         {{ block.data.title[0].text }}
       </h1>
       <h2 v-if="block.data.subtitle">
         {{ f_subtitle }}
-      </h2> -->
+      </h2> 
     </NuxtLink>
   </div>
 </template>
