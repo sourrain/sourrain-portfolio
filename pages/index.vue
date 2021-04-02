@@ -4,7 +4,7 @@
       Creative Developer who loves to direct multimedia performances
     </p>
     <!-- bg -->
-    
+
     <!-- card -->
     <div class="bg-blue text-xs flex">
       <card
@@ -22,14 +22,17 @@ import Prismic from "@prismicio/client";
 export default {
   data() {
     return {
-      blocks: []
+      blocks:[],
     }
   },
   mounted() {
     const client = Prismic.client( "https://sourrain-site.cdn.prismic.io/api/v2" );
-    client.query("").then(function(res){
+    client.query("").then((res)=>{
       console.log(res.results)
-     return this.blocks = res.results});
+   this.blocks = res.results
+        console.log(this.blocks)
+     });
+      
       }
   }
 </script>
