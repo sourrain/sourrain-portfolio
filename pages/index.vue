@@ -1,10 +1,12 @@
 <template>
-  <div class="flex flex-col items-center">
-    <p class="text-xl w-screen h-40 flex items-center p-3">
+  <div class="flex bg-yellow ">
+    <div>
+    <h1 class="text-xl">Isabel Sun
+    </h1>
+    <p class="text-xs">
       Creative Developer who loves to direct multimedia performances
     </p>
-    <!-- bg -->
-
+</div>
     <!-- card -->
     <div class="bg-blue text-xs flex">
       <card
