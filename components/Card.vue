@@ -1,9 +1,10 @@
 <template>
   <div>
-    <NuxtLink :to="'/artworks/'+block.uid">
+    <NuxtLink :to="'/artworks/'+block.uid" class="" v-if="block.type === 'project'">
      <img v-if="block.data.main"
+     class="w-screen h-screen"
       v-bind:src="f_url" />
-      <h1 class="flex">
+      <h1 class="">
         {{ block.data.title[0].text }}
       </h1>
       <h2 v-if="block.data.subtitle">
