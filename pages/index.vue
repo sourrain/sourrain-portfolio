@@ -2,7 +2,7 @@
 <!-- outer wrapper -->
 <div class="outerwrapper">
   <!-- wrapper -->
-  <div class="flex flex-row innerwrapper">
+  <div class="flex flex-row innerwrapper" v-bind:style="">
     <!-- index -->
   <div class=" bg-yellow w-screen h-screen">
     <div>
@@ -41,15 +41,16 @@ export default {
     client.query("").then((res) => {
       console.log(res.results);
       this.blocks = res.results;
-      console.log(this.blocks);
+      console.log(this.blocks.length*100);
     });
   },
 };
 </script>
 <style scoped>
 .innerwrapper{
-  width: 600vw;
+  width:600vw;
   /* 100 viewport width * the number of my projects + 1 index page */
+  /* this.blocks.length*100vw */
   transform: rotate(90deg) translateY(-100vh);
 transform-origin: top left;
 }
