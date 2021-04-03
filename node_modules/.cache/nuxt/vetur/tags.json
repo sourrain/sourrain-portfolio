@@ -22,17 +22,5 @@
   },
   "LazyLoadingPage": {
     "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/LoadingPage.vue"
-  },
-  "Tag": {
-    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Tag.vue"
-  },
-  "LazyTag": {
-    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Tag.vue"
-  },
-  "Three": {
-    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Three.vue"
-  },
-  "LazyThree": {
-    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Three.vue"
   }
 }
