@@ -1,23 +1,29 @@
 <template>
-  <div class="flex bg-yellow ">
+<!-- outer wrapper -->
+<div class="outerwrapper">
+  <!-- wrapper -->
+  <div class="flex flex-row innerwrapper">
+    <!-- index -->
+  <div class=" bg-yellow w-screen h-screen">
     <div>
-    <h1 class="text-xl">Isabel Sun
-    </h1>
-    <p class="text-xs">
-      Creative Developer who loves to direct multimedia performances
-    </p>
-</div>
+      <h1 class="text-9xl">Isabel Sun</h1>
+      <p class="text-xs">
+        Creative Developer who loves to direct multimedia performances
+      </p>
+    </div>
+    </div>
     <!-- card -->
     <div class="bg-blue text-xs flex">
       <card
-        class="w-80 p-5"
+        class=""
         v-for="(b, index) of blocks"
         :key="index"
-          v-bind:block="b"
+        v-bind:block="b"
       >
       </card>
     </div>
   </div>
+</div>
 </template>
 
 <script>
@@ -25,19 +31,41 @@ import Prismic from "@prismicio/client";
 export default {
   data() {
     return {
-      blocks:[],
-    }
+      blocks: [],
+    };
   },
   mounted() {
-    const client = Prismic.client( "https://sourrain-site.cdn.prismic.io/api/v2" );
-    client.query("").then((res)=>{
-      console.log(res.results)
-   this.blocks = res.results
-        console.log(this.blocks)
-     });
-      
-      }
-  }
+    const client = Prismic.client(
+      "https://sourrain-site.cdn.prismic.io/api/v2"
+    );
+    client.query("").then((res) => {
+      console.log(res.results);
+      this.blocks = res.results;
+      console.log(this.blocks);
+    });
+  },
+};
 </script>
 <style scoped>
+.innerwrapper{
+  width: 600vw;
+  /* 100 viewport width * the number of my projects + 1 index page */
+  transform: rotate(90deg) translateY(-100vh);
+transform-origin: top left;
+}
+.outerwrapper{
+width:100vh;
+height:100vw;
+transform: rotate(-90deg) translateX(-100vh);
+transform-origin: top left;
+overflow-y: scroll;
+overflow-x: hidden;
+position: absolute;
+/* hide scrollbar in different browser */
+scrollbar-width: none;
+-ms-overflow-style: none;
+}
+::-webkit-scrollbar{
+  display: none;
+}
 </style>
