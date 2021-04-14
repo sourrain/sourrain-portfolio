@@ -2,7 +2,8 @@
 <!-- outer wrapper -->
 <div class="outerwrapper">
   <!-- wrapper -->
-  <div class="flex flex-row innerwrapper" v-bind:style="">
+  <div class="flex flex-row innerwrapper"
+    v-bind:style="allProjectsWidth">
     <!-- index -->
   <div class=" bg-yellow w-screen h-screen">
     <div>
@@ -44,6 +45,11 @@ export default {
       console.log(this.blocks.length*100);
     });
   },
+  computed: {
+    allProjectsWidth() {
+      return "width: " + this.blocks.length * 100 + "vw"
+    }
+  }
 };
 </script>
 <style scoped>
