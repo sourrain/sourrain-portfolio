@@ -1,13 +1,11 @@
 <template>
 
-<!-- outer wrapper -->
-<div class="outerwrapper">
-  <p>hiii</p>
-  <!-- wrapper -->
-  <div class="flex flex-row innerwrapper"
-    v-bind:style="allProjectsWidth">
-    <!-- index -->
-  <div class=" bg-yellow w-screen h-screen">
+<!-- page -->
+<div class="page">
+  <!-- pane -->
+  <div>
+    <!-- index-pane -->
+  <div class=" bg-yellow pane">
     <div>
       <h1 class="text-9xl">Isabel Sun</h1>
       <p class="text-xs">
@@ -15,10 +13,10 @@
       </p>
     </div>
     </div>
-    <!-- card -->
-    <div class="bg-blue text-xs flex">
+    <!-- card-pane -->
+    <div class="bg-blue">
       <card
-        class=""
+        class="pane"
         v-for="(b, index) of blocks"
         :key="index"
         v-bind:block="b"
@@ -48,33 +46,57 @@ export default {
     });
   },
   computed: {
-    allProjectsWidth() {
-      return "width: " + this.blocks.length * 100 + "vw"
-    }
+  var page;
+var last_pane = last_pane[last_pane.length-1];
+var dummy_x = null;
+
+window.onscroll = function () {
+  // Horizontal Scroll.
+  var y = document.body.getBoundingClientRect().top;
+  page.scrollLeft = -y;
+  
+  // Looping Scroll.
+  var diff = window.scrollY - dummy_x;
+  if (diff > 0) {
+    window.scrollTo(0, diff);
+  }
+  else if (window.scrollY == 0) {
+    window.scrollTo(0, dummy_x);
+  }
+}
+// Adjust the body height if the window resizes.
+window.onresize = resize;
+// Initial resize.
+resize();
+
+// Reset window-based vars
+function resize() {
+  var w = page.scrollWidth-window.innerWidth+window.innerHeight;
+  document.body.style.height = w + 'px';
+  
+  dummy_x = last_pane.getBoundingClientRect().left+window.scrollY;
+}
   }
 };
 </script>
 <style scoped>
-.innerwrapper{
-  width:600vw;
-  /* 100 viewport width * the number of my projects + 1 index page */
-  /* this.blocks.length*100vw */
-  transform: rotate(90deg) translateY(-100vh);
-transform-origin: top left;
+.page{
+overflow:hidden;
+  white-space:nowrap;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  display:flex;
+  flex-wrap:no-wrap;
 }
-.outerwrapper{
-width:100vh;
-height:100vw;
-transform: rotate(-90deg) translateX(-100vh);
-transform-origin: top left;
-overflow-y: scroll;
-overflow-x: hidden;
-position: absolute;
-/* hide scrollbar in different browser */
-scrollbar-width: none;
--ms-overflow-style: none;
-}
-::-webkit-scrollbar{
-  display: none;
+.pane{
+flex:0 0 100vw;
+  height:100vh;
+  display:flex;
+  position:relative;
+  align-items:center;
+  justify-content:center;
 }
 </style>
