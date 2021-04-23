@@ -1,6 +1,8 @@
 <template>
+
 <!-- outer wrapper -->
 <div class="outerwrapper">
+  <p>hiii</p>
   <!-- wrapper -->
   <div class="flex flex-row innerwrapper"
     v-bind:style="allProjectsWidth">
