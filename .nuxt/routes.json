@@ -3,18 +3,21 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\about.vue",
-    "chunkName": "pages/about"
+    "chunkName": "pages/about",
+    "_name": "_7fb5a394"
   },
   {
     "name": "artworks-artwork",
     "path": "/artworks/:artwork?",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\artworks\\\\_artwork.vue",
-    "chunkName": "pages/artworks/_artwork"
+    "chunkName": "pages/artworks/_artwork",
+    "_name": "_5bf2d77d"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_c125034e"
   }
 ]

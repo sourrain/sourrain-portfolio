@@ -1,22 +1,22 @@
 <template>
-  <section v-on:click="addUser">You are: {{ this.$store.state }}</section>
+  <section v-on:click="addTitle">You are: {{ this.$store.getters }}</section>
 </template>
 
 <script>
 export default {
   computed: {
-    users() {
-      return this.$store.state.users;
+    titles() {
+      return this.$store.state.titles;
     },
   },
   mounted() {
-    this.loadUsers();
-    this.$store.dispatch("addUsers");
+    this.loadTitles();
+    this.$store.dispatch("addTitle");
   },
   methods: {
-    addUser() {},
-    loadUsers() {
-      this.$store.dispatch("loadUsers");
+    addTitle() {},
+    loadTitles() {
+      this.$store.dispatch("loadTitles");
     },
   },
 };
