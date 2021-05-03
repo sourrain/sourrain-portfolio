@@ -1,5 +1,10 @@
 export const state = () => {
 return {
-    projects:'test this is project'
+    projects:'project'
 }
-};
+}
+export const mutations = {
+    changeProject(state){
+        state.projects='mutated'
+    }
+}
