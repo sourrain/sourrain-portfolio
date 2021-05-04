@@ -6,10 +6,10 @@
     "chunkName": "pages/about"
   },
   {
-    "name": "artworks-artwork",
-    "path": "/artworks/:artwork?",
-    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\artworks\\\\_artwork.vue",
-    "chunkName": "pages/artworks/_artwork"
+    "name": "projects-project",
+    "path": "/projects/:project?",
+    "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\projects\\\\_project.vue",
+    "chunkName": "pages/projects/_project"
   },
   {
     "name": "index",
