@@ -1,9 +1,9 @@
 {
-  "Card": {
-    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Card.vue"
+  "Cardold": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Cardold.vue"
   },
-  "LazyCard": {
-    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Card.vue"
+  "LazyCardold": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Cardold.vue"
   },
   "Footer": {
     "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Footer.vue"
@@ -22,5 +22,11 @@
   },
   "LazyLoadingPage": {
     "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/LoadingPage.vue"
+  },
+  "Projects": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Projects.vue"
+  },
+  "LazyProjects": {
+    "description": "Auto imported from C:/Users/sourrain/Desktop/UIUX/sourrain-portfolio/components/Projects.vue"
   }
 }
