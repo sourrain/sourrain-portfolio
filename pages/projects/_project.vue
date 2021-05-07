@@ -27,6 +27,8 @@
   </div>
 </template>
 <script>
+import goBack from '../../lib/goBack'
+
 export default {
   data() {
     return {
@@ -35,6 +37,7 @@ export default {
     };
   },
   mounted() {
+    // this.$route.params.project is the current project
     this.loadProjects(); //call the method: loadProjects
   },
   methods: {
@@ -42,7 +45,8 @@ export default {
       this.$store.dispatch("asyncData"); //dispatch action: loadProjects to trigger the state change
     },
     goBack() {
-      this.$router.go(-1)//this.store.$state.goback
+      goBack(this.$router, -1)
+   
     }
   }
 };

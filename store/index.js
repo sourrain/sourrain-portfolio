@@ -20,15 +20,19 @@ export const mutations = {
     }
 }
 export const actions = {
-    async asyncData({ commit,params }) {
+    async getProjects({ commit,params }) {
         const api = await Prismic.api(
             "https://sourrain-site.cdn.prismic.io/api/v2"//asnyc API from CMS
         )
+    if(this.$store.projects===[]){
         api.query('').then((res) => {//async all projects
             commit("loadProjects", res.results)
         }
         )
-        const res = await api.getByUID('project',params.project);//async a project which has type with project by UID
+    }else{
+
+        }
+        const res = await api.getByUID('project',params.commit);//async a project which has type with project by UID
         commit('loadProject', res)
     }
 

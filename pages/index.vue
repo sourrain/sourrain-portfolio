@@ -34,7 +34,7 @@ export default {
   },
   methods: {
     loadProjects() {
-      this.$store.dispatch("asyncData"); //dispatch action: loadProjects to trigger the state change
+      this.$store.dispatch("getProjects"); //dispatch action: loadProjects to trigger the state change
     }
   }
 }
