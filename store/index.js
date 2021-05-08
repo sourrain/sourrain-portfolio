@@ -16,22 +16,21 @@ export const mutations = {
         state.goBack = this.$router.go(-1)
     },//back to previous page
     loadProject(state, theProject) {
-        state.theProject=theProject
+        //state.theProject=theProject//Vuex won't render when there is no change in dom
     }
 }
 export const actions = {
-    async getProjects({ commit,params }) {
+    async getProjects({ commit,state }) {
         const api = await Prismic.api(
             "https://sourrain-site.cdn.prismic.io/api/v2"//asnyc API from CMS
         )
-    if(this.$store.projects===[]){
+        console.log(state)//check nuxt object:context contains what we could use
+        if(state.projects.length===0){//Use if to make sure Vuex only render when the array is empty
         api.query('').then((res) => {//async all projects
             commit("loadProjects", res.results)
         }
-        )
-    }else{
-
-        }
+        )}
+        
         const res = await api.getByUID('project',params.commit);//async a project which has type with project by UID
         commit('loadProject', res)
     }

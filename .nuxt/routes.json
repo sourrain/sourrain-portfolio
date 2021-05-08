@@ -3,28 +3,24 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_7fb5a394"
+    "chunkName": "pages/about"
   },
   {
     "name": "testing",
     "path": "/testing",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\testing.vue",
-    "chunkName": "pages/testing",
-    "_name": "_623f78d7"
+    "chunkName": "pages/testing"
   },
   {
     "name": "projects-project",
     "path": "/projects/:project?",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\projects\\\\_project.vue",
-    "chunkName": "pages/projects/_project",
-    "_name": "_2ffb6e5d"
+    "chunkName": "pages/projects/_project"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\sourrain\\\\Desktop\\\\UIUX\\\\sourrain-portfolio\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_c125034e"
+    "chunkName": "pages/index"
   }
 ]
